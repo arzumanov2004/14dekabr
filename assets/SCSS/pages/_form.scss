@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #717FE0;
+    .navbar{
+        .collapse{
+            margin-left: 30px;
+            ul{
+                li{
+                    a{
+                        color: black !important;
+                    }
+                }
+            }
+            .icons{
+                display: flex;
+                gap: 20px;
+                i{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 20px;
+    .footer{
+        width: 100%;
+        min-height: 150px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            margin-top: 15px;
+        }
+    }
+}
